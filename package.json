@@ -69,7 +69,9 @@
     "all-test": "npm run st -- --no-power-assert bigquery/system-test/*.test.js kms/system-test/*.test.js test/**/*.test.js **/test/**/*.test.js system-test/**/*.test.js **/system-test/**/*.test.js",
     "ci-test": "npm run st -- --no-power-assert",
     "all-cover": "npm run pretest && nyc --cache npm run all-test && nyc report --reporter=html",
-    "unify": "node scripts/unify"
+    "unify": "node scripts/unify",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "@google-cloud/bigquery": "0.7.0",
@@ -128,5 +130,9 @@
   },
   "optionalDependencies": {
     "canvas": "1.6.2"
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.69.7"
   }
 }
