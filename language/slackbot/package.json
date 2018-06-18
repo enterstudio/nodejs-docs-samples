@@ -9,12 +9,16 @@
   "dependencies": {
     "botkit": "0.0.5",
     "@google-cloud/language": "0.7.0",
-    "sqlite3": "3.1.8"
+    "sqlite3": "4.0.0",
+    "snyk": "^1.83.0"
   },
   "scripts": {
-    "test": "cd ../..; npm run st -- --verbose language/slackbot/system-test/*.test.js"
+    "test": "cd ../..; npm run st -- --verbose language/slackbot/system-test/*.test.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "engines": {
     "node": ">=4.3.2"
-  }
+  },
+  "snyk": true
 }
