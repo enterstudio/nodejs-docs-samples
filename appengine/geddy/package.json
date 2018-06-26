@@ -11,9 +11,13 @@
   "scripts": {
     "prestart": "GEDDY_SECRET=config/secrets.json; [[ -f $GEDDY_SECRET ]] || echo '{}' > $GEDDY_SECRET && geddy gen secret",
     "start": "geddy",
-    "debug": "geddy --debug"
+    "debug": "geddy --debug",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "geddy": "13.0.8"
-  }
+    "geddy": "13.0.8",
+    "snyk": "^1.85.0"
+  },
+  "snyk": true
 }
