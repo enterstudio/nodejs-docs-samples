@@ -15,9 +15,9 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "construx": "^1.0.0",
+    "construx": "^1.0.1",
     "construx-copier": "^1.0.0",
-    "express": "^4.13.4",
+    "express": "^4.16.0",
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
     "grunt-config-dir": "^0.3.2",
@@ -27,6 +27,6 @@
     "grunt-mocha-cli": "^2.0.0",
     "kraken-js": "^2.1.0",
     "mocha": "^2.4.5",
-    "supertest": "^1.1.0"
+    "supertest": "^1.2.0"
   }
 }
