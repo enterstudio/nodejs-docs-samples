@@ -5,15 +5,19 @@
   "license": "Apache Version 2.0",
   "author": "Google Inc.",
   "scripts": {
-    "test": "cd ..; npm run st -- --verbose speech/system-test/*.test.js"
+    "test": "cd ..; npm run st -- --verbose speech/system-test/*.test.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@google-cloud/speech": "0.6.0",
     "@google-cloud/storage": "0.7.0",
     "node-record-lpcm16": "0.2.0",
-    "yargs": "6.6.0"
+    "yargs": "6.6.0",
+    "snyk": "^1.316.1"
   },
   "engines": {
     "node": ">=4.3.2"
-  }
+  },
+  "snyk": true
 }
