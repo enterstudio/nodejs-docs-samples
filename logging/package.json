@@ -6,19 +6,23 @@
   "author": "Google Inc.",
   "scripts": {
     "test": "cd ..; npm run t -- logging/test/*.test.js",
-    "system-test": "cd ..; npm run st -- --verbose logging/system-test/*.test.js"
+    "system-test": "cd ..; npm run st -- --verbose logging/system-test/*.test.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@google-cloud/logging": "0.7.0",
     "@google-cloud/storage": "0.7.0",
     "express": "4.14.1",
     "fluent-logger": "2.2.0",
-    "yargs": "6.6.0"
+    "yargs": "6.6.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "uuid": "3.0.1"
   },
   "engines": {
     "node": ">=4.3.2"
-  }
+  },
+  "snyk": true
 }
