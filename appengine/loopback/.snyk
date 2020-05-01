@@ -1,0 +1,46 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - loopback-datasource-juggler > loopback-connector > strong-globalize > lodash:
+        patched: '2020-05-01T00:11:34.141Z'
+    - loopback > loopback-phase > strong-globalize > lodash:
+        patched: '2020-05-01T00:11:34.141Z'
+    - loopback > strong-remoting > strong-globalize > lodash:
+        patched: '2020-05-01T00:11:34.141Z'
+    - loopback-component-explorer > loopback-swagger > strong-globalize > lodash:
+        patched: '2020-05-01T00:11:34.141Z'
+    - loopback > strong-remoting > async > lodash:
+        patched: '2020-05-01T00:11:34.141Z'
+    - loopback-datasource-juggler > loopback-connector > strong-globalize > fs-sync > lodash:
+        patched: '2020-05-01T00:11:34.141Z'
+    - loopback > loopback-phase > strong-globalize > fs-sync > lodash:
+        patched: '2020-05-01T00:11:34.141Z'
+    - loopback > strong-remoting > strong-globalize > fs-sync > lodash:
+        patched: '2020-05-01T00:11:34.141Z'
+    - loopback-component-explorer > loopback-swagger > strong-globalize > fs-sync > lodash:
+        patched: '2020-05-01T00:11:34.141Z'
+    - loopback > strong-remoting > loopback-phase > strong-globalize > lodash:
+        patched: '2020-05-01T00:11:34.141Z'
+    - loopback > loopback-connector-remote > strong-remoting > strong-globalize > lodash:
+        patched: '2020-05-01T00:11:34.141Z'
+    - loopback > loopback-connector-remote > strong-remoting > async > lodash:
+        patched: '2020-05-01T00:11:34.141Z'
+    - loopback > strong-remoting > xml2js > xmlbuilder > lodash:
+        patched: '2020-05-01T00:11:34.141Z'
+    - loopback > strong-remoting > loopback-phase > strong-globalize > fs-sync > lodash:
+        patched: '2020-05-01T00:11:34.141Z'
+    - loopback > loopback-connector-remote > strong-remoting > strong-globalize > fs-sync > lodash:
+        patched: '2020-05-01T00:11:34.141Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > loopback-connector > strong-globalize > lodash:
+        patched: '2020-05-01T00:11:34.141Z'
+    - loopback > loopback-connector-remote > strong-remoting > loopback-phase > strong-globalize > lodash:
+        patched: '2020-05-01T00:11:34.141Z'
+    - loopback > loopback-connector-remote > strong-remoting > xml2js > xmlbuilder > lodash:
+        patched: '2020-05-01T00:11:34.141Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > loopback-connector > strong-globalize > fs-sync > lodash:
+        patched: '2020-05-01T00:11:34.141Z'
+    - loopback > loopback-connector-remote > strong-remoting > loopback-phase > strong-globalize > fs-sync > lodash:
+        patched: '2020-05-01T00:11:34.141Z'
