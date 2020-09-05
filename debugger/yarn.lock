@@ -27,9 +27,10 @@
     string-format-obj "^1.1.0"
     through2 "^2.0.3"
 
-"@google-cloud/debug-agent@0.10.2":
-  version "0.10.2"
-  resolved "https://registry.yarnpkg.com/@google-cloud/debug-agent/-/debug-agent-0.10.2.tgz#3654c7eb6f8d20c6c9b4f4261b6f7750ef867a94"
+"@google-cloud/debug-agent@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@google-cloud/debug-agent/-/debug-agent-1.0.0.tgz#2464af4056b8a97485b4526c7a53bf5bc6db323e"
+  integrity sha1-JGSvQFa4qXSFtFJselO/W8bbMj4=
   dependencies:
     "@google-cloud/common" "^0.12.0"
     acorn "^4.0.3"
@@ -37,7 +38,6 @@
     coffee-script "^1.9.3"
     findit2 "^2.2.3"
     gcp-metadata "^0.1.0"
-    google-auth-library "^0.9.5"
     lodash "^4.12.0"
     request "^2.61.0"
     semver "^5.1.0"
@@ -433,7 +433,7 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-google-auth-library@^0.9.10, google-auth-library@^0.9.5:
+google-auth-library@^0.9.10:
   version "0.9.10"
   resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-0.9.10.tgz#4993dc07bb4834b8ca0350213a6873a32c6051b9"
   dependencies:
