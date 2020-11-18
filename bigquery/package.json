@@ -10,7 +10,7 @@
   "dependencies": {
     "@google-cloud/bigquery": "0.7.0",
     "@google-cloud/storage": "0.7.0",
-    "yargs": "6.6.0"
+    "yargs": "16.0.0"
   },
   "devDependencies": {
     "uuid": "3.0.1"
