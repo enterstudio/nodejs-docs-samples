@@ -571,13 +571,14 @@ ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
-ejs@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/ejs/-/ejs-1.0.0.tgz#c9c60a48a46ee452fb32a71c317b95e5aa1fcb3d"
-
 ejs@^2.3.1:
   version "2.5.5"
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.5.5.tgz#6ef4e954ea7dcf54f66aad2fe7aa421932d9ed77"
+
+ejs@^2.5.5:
+  version "2.7.4"
+  resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.7.4.tgz#48661287573dcc53e366c7a1ae52c3a120eec9ba"
+  integrity sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
 
 emitter-listener@^1.0.1:
   version "1.0.1"
@@ -1404,38 +1405,40 @@ lodash@3.6.0:
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.6.0.tgz#5266a8f49dd989be4f9f681b6f2a0c55285d0d9a"
 
-lodash@^2.4.1:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-2.4.2.tgz#fadd834b9683073da179b3eae6d9c0d15053f73e"
-
-lodash@^3.10.0, lodash@^3.10.1:
-  version "3.10.1"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
-
 lodash@^4.0.0, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.16.1, lodash@^4.3.0:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
-loopback-boot@2.6.5:
-  version "2.6.5"
-  resolved "https://registry.yarnpkg.com/loopback-boot/-/loopback-boot-2.6.5.tgz#c18dffc5bb5e41bb58d850fb78e31a827f537525"
+lodash@^4.17.5:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+
+loopback-boot@2.27.1:
+  version "2.27.1"
+  resolved "https://registry.yarnpkg.com/loopback-boot/-/loopback-boot-2.27.1.tgz#77db933ffd1eb87adb7d93edc03dd276e6190393"
+  integrity sha512-8w1EYcQCPwUrs5iplJv0iHMzmvfBRDRxsO40ladB8TL4Jat6jXfOaE0zAm1/9gh9pMCstHh01Nr52GpfCIHGZA==
   dependencies:
     async "~0.9.0"
     commondir "0.0.1"
     debug "^2.0.0"
-    lodash "^2.4.1"
+    lodash "^4.17.5"
     semver "^4.1.0"
+    strong-globalize "^2.6.2"
     toposort "^0.2.10"
 
-loopback-component-explorer@2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/loopback-component-explorer/-/loopback-component-explorer-2.4.0.tgz#b4a8624036b670862ef8391a307cfc30f366aee6"
+loopback-component-explorer@4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/loopback-component-explorer/-/loopback-component-explorer-4.3.1.tgz#cd0f3dc68126717226510375e79172dcbd7c334d"
+  integrity sha1-zQ89xoEmcXImUQN155Fy3L18M00=
   dependencies:
     cors "^2.7.1"
     debug "^2.2.0"
-    lodash "^3.10.0"
-    loopback-swagger "^2.1.0"
-    strong-swagger-ui "^21.0.0"
+    depd "^1.1.0"
+    lodash "^4.17.5"
+    loopback-swagger "^3.0.1"
+    strong-globalize "^2.6.2"
+    swagger-ui "^2.2.5"
 
 loopback-connector-remote@^1.0.3:
   version "1.3.3"
@@ -1475,14 +1478,15 @@ loopback-phase@^1.2.0, loopback-phase@^1.3.0:
     debug "^2.1.0"
     strong-globalize "^2.6.2"
 
-loopback-swagger@^2.1.0:
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/loopback-swagger/-/loopback-swagger-2.8.0.tgz#6a2fbf6a61f0e99630e76f209041e5e8c84eff51"
+loopback-swagger@^3.0.1:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/loopback-swagger/-/loopback-swagger-3.0.3.tgz#f4b624e383a7ca7d7a1141eac6c69c7b8ce8f261"
+  integrity sha512-ly7t++ubK5eAuuKCNb4o7H+VHjO+cNm9PXMu1dfSG0r3uqKByGyxdhZ5ZrI4lt9RE5fDtGm1gA/25Up/Ce7SvQ==
   dependencies:
     async "^1.4.2"
     debug "^2.2.0"
-    ejs "^1.0.0"
-    lodash "^3.10.1"
+    ejs "^2.5.5"
+    lodash "^4.17.5"
     strong-globalize "^2.6.0"
     underscore.string "~2.3.3"
 
@@ -1792,7 +1796,7 @@ onetime@^1.0.0:
   resolved "https://registry.yarnpkg.com/onetime/-/onetime-1.1.0.tgz#a1f7838f8314c516f05ecefcbc4ccfe04b4ed789"
 
 optional@^0.1.3:
-  version v0.1.3
+  version "0.1.3"
   resolved "https://registry.yarnpkg.com/optional/-/optional-0.1.3.tgz#f87537517b59a5e732cfd8f18e4f7eea7ab4761e"
 
 optionator@^0.8.1:
@@ -2258,10 +2262,6 @@ strong-remoting@^2.15.0, strong-remoting@^2.3.0:
     traverse "^0.6.6"
     xml2js "^0.4.8"
 
-strong-swagger-ui@^21.0.0:
-  version "21.0.2"
-  resolved "https://registry.yarnpkg.com/strong-swagger-ui/-/strong-swagger-ui-21.0.2.tgz#212a900dfab5ae04e628e21b5800632bd0d9e347"
-
 subcommand@^2.0.3:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/subcommand/-/subcommand-2.0.4.tgz#71cd54bd83a78a0b266296cda3f9428e91d66b14"
@@ -2304,6 +2304,11 @@ swagger-client@^2.1.16:
     lodash-compat "^3.5.0"
     q "^1.4.1"
     superagent "^2.2"
+
+swagger-ui@^2.2.5:
+  version "2.2.10"
+  resolved "https://registry.yarnpkg.com/swagger-ui/-/swagger-ui-2.2.10.tgz#b25e7a21664e5d90bf391db30db08de41e852d7b"
+  integrity sha1-sl56IWZOXZC/OR2zDbCN5B6FLXs=
 
 table@^3.7.8:
   version "3.8.3"
