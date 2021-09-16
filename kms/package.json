@@ -9,6 +9,6 @@
   },
   "dependencies": {
     "googleapis": "16.1.0",
-    "yargs": "6.6.0"
+    "yargs": "15.0.1"
   }
 }
