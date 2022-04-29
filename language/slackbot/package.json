@@ -9,7 +9,7 @@
   "dependencies": {
     "botkit": "0.0.5",
     "@google-cloud/language": "0.7.0",
-    "sqlite3": "3.1.8"
+    "sqlite3": "5.0.3"
   },
   "scripts": {
     "test": "cd ../..; npm run st -- --verbose language/slackbot/system-test/*.test.js"
