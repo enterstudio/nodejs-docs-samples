@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@google-cloud/translate": "0.7.0",
-    "yargs": "6.6.0"
+    "yargs": "7.0.0"
   },
   "engines": {
     "node": ">=4.3.2"
