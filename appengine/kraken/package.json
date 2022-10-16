@@ -26,7 +26,7 @@
     "grunt-copy-to": "0.0.12",
     "grunt-mocha-cli": "^2.0.0",
     "kraken-js": "^2.1.0",
-    "mocha": "^2.4.5",
+    "mocha": "^10.1.0",
     "supertest": "^1.1.0"
   }
 }
