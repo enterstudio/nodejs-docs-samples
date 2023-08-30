@@ -9,6 +9,12 @@
     "node": ">=4.3.2"
   },
   "dependencies": {
-    "restify": "4.3.0"
-  }
+    "restify": "4.3.0",
+    "@snyk/protect": "latest"
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
