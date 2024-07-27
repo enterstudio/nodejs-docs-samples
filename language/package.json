@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@google-cloud/language": "0.8.0",
-    "@google-cloud/storage": "0.7.0",
+    "@google-cloud/storage": "2.0.0",
     "yargs": "6.6.0"
   },
   "engines": {
