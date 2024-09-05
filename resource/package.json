@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@google-cloud/resource": "0.6.0",
-    "yargs": "6.6.0"
+    "yargs": "16.1.1"
   },
   "engines": {
     "node": ">=4.3.2"
