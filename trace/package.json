@@ -8,11 +8,15 @@
     "node": ">=4.3.2"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
-    "@google/cloud-trace": "0.6.1",
-    "express": "4.14.1",
-    "request": "2.79.0"
-  }
+    "@google/cloud-trace": "0.6.3",
+    "express": "4.16.0",
+    "request": "2.88.2",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }

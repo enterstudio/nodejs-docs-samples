@@ -1,0 +1,61 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - '@google/cloud-trace > @google-cloud/common > retry-request > request > hawk > hoek':
+        patched: '2024-09-16T20:13:54.851Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @google/cloud-trace > @google-cloud/common > retry-request > request >
+          hawk > hoek
+    - '@google/cloud-trace > gcp-metadata > retry-request > request > hawk > hoek':
+        patched: '2024-09-16T20:13:54.851Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @google/cloud-trace > gcp-metadata > retry-request > request > hawk >
+          hoek
+    - '@google/cloud-trace > @google-cloud/common > retry-request > request > hawk > boom > hoek':
+        patched: '2024-09-16T20:13:54.851Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @google/cloud-trace > @google-cloud/common > retry-request > request >
+          hawk > boom > hoek
+    - '@google/cloud-trace > gcp-metadata > retry-request > request > hawk > boom > hoek':
+        patched: '2024-09-16T20:13:54.851Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @google/cloud-trace > gcp-metadata > retry-request > request > hawk >
+          boom > hoek
+    - '@google/cloud-trace > @google-cloud/common > retry-request > request > hawk > sntp > hoek':
+        patched: '2024-09-16T20:13:54.851Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @google/cloud-trace > @google-cloud/common > retry-request > request >
+          hawk > sntp > hoek
+    - '@google/cloud-trace > gcp-metadata > retry-request > request > hawk > sntp > hoek':
+        patched: '2024-09-16T20:13:54.851Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @google/cloud-trace > gcp-metadata > retry-request > request > hawk >
+          sntp > hoek
+    - '@google/cloud-trace > @google-cloud/common > retry-request > request > hawk > cryptiles > boom > hoek':
+        patched: '2024-09-16T20:13:54.851Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @google/cloud-trace > @google-cloud/common > retry-request > request >
+          hawk > cryptiles > boom > hoek
+    - '@google/cloud-trace > gcp-metadata > retry-request > request > hawk > cryptiles > boom > hoek':
+        patched: '2024-09-16T20:13:54.851Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @google/cloud-trace > gcp-metadata > retry-request > request > hawk >
+          cryptiles > boom > hoek
+  'npm:tunnel-agent:20170305':
+    - '@google/cloud-trace > gcp-metadata > retry-request > request > tunnel-agent':
+        patched: '2024-09-16T20:13:54.851Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          @google/cloud-trace > gcp-metadata > retry-request > request >
+          tunnel-agent
