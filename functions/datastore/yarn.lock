@@ -2,17 +2,19 @@
 # yarn lockfile v1
 
 
-"@google-cloud/common-grpc@^0.1.1":
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/@google-cloud/common-grpc/-/common-grpc-0.1.3.tgz#fe692a1df214b0b8dc25ae96ba96990dc9c18b98"
+"@google-cloud/common-grpc@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@google-cloud/common-grpc/-/common-grpc-0.2.1.tgz#263f211859c3a713f3e4c7f2fbbffe78ea9272f8"
+  integrity sha512-oYbFCFhT4KyzxDV5pFN0ubfIz0itXp13p+lhIi6iyIhR0EBoWx6z1imoB4SzD0xz5TvcVQzkP6FK9HvTUjNnDA==
   dependencies:
     "@google-cloud/common" "^0.12.0"
     dot-prop "^2.4.0"
     duplexify "^3.5.0"
     extend "^3.0.0"
-    google-proto-files "^0.8.6"
+    google-proto-files "^0.10.0"
     grpc "^1.1.1"
     is "^3.2.0"
+    modelo "^4.2.0"
     retry-request "^1.3.2"
     through2 "^2.0.3"
 
@@ -41,12 +43,13 @@
     string-format-obj "^1.1.0"
     through2 "^2.0.3"
 
-"@google-cloud/datastore@0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@google-cloud/datastore/-/datastore-0.7.0.tgz#d7f7888e16cd3903bec6e8b5a2b0aefdfa82a154"
+"@google-cloud/datastore@0.7.1":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@google-cloud/datastore/-/datastore-0.7.1.tgz#45ec994770e549561310ef5edaab1229baf2de57"
+  integrity sha512-aG1QNXr7ejsqIE8DlOdOFf+Mwp5QvFSlSf8qdBI+QeWUv8VUhpKGdHG1KZLjqj576Xgoo9KjU2v/yZfbGfLViw==
   dependencies:
     "@google-cloud/common" "^0.12.0"
-    "@google-cloud/common-grpc" "^0.1.1"
+    "@google-cloud/common-grpc" "^0.2.1"
     arrify "^1.0.0"
     concat-stream "^1.5.0"
     create-error-class "^3.0.2"
@@ -502,6 +505,11 @@ google-p12-pem@^0.1.0:
   resolved "https://registry.yarnpkg.com/google-p12-pem/-/google-p12-pem-0.1.1.tgz#66ef8946ee97e8da37f1beb1d8ec5c3be2ba4539"
   dependencies:
     node-forge "^0.6.46"
+
+google-proto-files@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/google-proto-files/-/google-proto-files-0.10.0.tgz#980ecc04383671540f1d8453d00a68950d73728a"
+  integrity sha512-vBf+1iP+GI6AKP6Jn1sCjZQcDRYRE9oMYU6dwzbar2AdvuyOuzNohuFjqpmoMjZUGI2vexoTyne2GdCOu4b0UA==
 
 google-proto-files@^0.8.6:
   version "0.8.6"
