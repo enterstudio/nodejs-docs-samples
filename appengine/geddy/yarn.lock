@@ -50,13 +50,15 @@ filelist@0.0.x:
     minimatch "^3.0.3"
     utilities "^0.0.37"
 
-geddy@13.0.8:
-  version "13.0.8"
-  resolved "https://registry.yarnpkg.com/geddy/-/geddy-13.0.8.tgz#703934fb2d2712087e556876e98ec7933151eb39"
+geddy@14.0.1:
+  version "14.0.1"
+  resolved "https://registry.yarnpkg.com/geddy/-/geddy-14.0.1.tgz#3085f32d404e1363be0a50730b3280a0fced030d"
+  integrity sha512-W4MXbJzj4fOMbDfpLxYs+yPYXynda+ln/Fqq1oMOEvbbhJStXQ+3+EpN5bsoRh9mYcpRXQPahfEKalrSnYnjaA==
   dependencies:
     barista "0.2.x"
     chalk "^0.4.0"
-    jake "8.0.x"
+    is-promise "^2.0.0"
+    jake "^8.0.16"
     mime "1.2.x"
     model "6.0.x"
     tlsopts "0.0.1"
@@ -70,9 +72,15 @@ inflection@*:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/inflection/-/inflection-1.10.0.tgz#5bffcb1197ad3e81050f8e17e21668087ee9eb2f"
 
-jake@8.0.x:
-  version "8.0.15"
-  resolved "https://registry.yarnpkg.com/jake/-/jake-8.0.15.tgz#f0da7d58e790ac1a8f86e6ee0f193e5d9230eabb"
+is-promise@^2.0.0:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/is-promise/-/is-promise-2.2.2.tgz#39ab959ccbf9a774cf079f7b40c7a26f763135f1"
+  integrity sha512-+lP4/6lKUBfQjZ2pdxThZvLUAafmZb8OAxFb8XXtiQmS35INgr85hdOGoEs124ez1FCnZJt6jau/T+alh58QFQ==
+
+jake@^8.0.16:
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/jake/-/jake-8.1.1.tgz#435b24563f6996b0d63e429969a7de54d8417c6c"
+  integrity sha512-RJUWDas5xu4rP6CbCPqkVP9+vglMPThhZIj08EtjSiUBpwRtVjhShPKIpETyEhy/Z1hEk97qITxbZK+WXtSyzw==
   dependencies:
     async "0.9.x"
     chalk "0.4.x"
